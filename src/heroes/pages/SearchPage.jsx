@@ -73,7 +73,7 @@ export const SearchPage = () => {
               Search a hero
             </div>          
 
-            <div className="alert alert-danger" style={{ display: showError ? '' : 'none' }}>
+            <div aria-label='alert-danger' className="alert alert-danger" style={{ display: showError ? '' : 'none' }}>
               There's no results with <b>{ q }</b>
             </div>
 
